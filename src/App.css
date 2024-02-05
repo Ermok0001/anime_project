@@ -1,0 +1,173 @@
+body{
+    margin-left: 150px;
+    margin-right: 150px;
+    /* margin-top: 50px; */
+    background-color: rgb(20, 13, 10);
+}
+h1,p,li,a,h2,h3,h4,h5,h6,input{
+    color: white;
+    text-decoration: none;
+}
+input{
+    font-size: 20px;
+}
+.Navigation{
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    border: 2px solid;
+    border-color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.Navigation img{
+    height: 70px;
+}
+ul{
+    display: flex;
+    column-gap: 20px;
+    list-style: none;
+}
+.Search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    column-gap: 20px;
+}
+.Search input{
+    border-radius: 10px;
+    background-color: rgb(12, 8, 6);
+    border-color: orange;
+    height: 50px;
+    width: 200px;
+}
+.Search button{
+    height: 55px;
+    width: 120px;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.AnimeCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    row-gap: 10px;
+    height: 400px;
+    width: 250px;
+    border: 5px solid;
+    border-radius: 32px;
+    border-color: rgb(36, 36, 36);
+    box-shadow: 0px 0px 20px 5px rgba(255, 255, 255, 0.5); 
+}
+.AnimeCard h2{
+    font-size: 17px;
+    text-align: center;
+}
+.AnimeCard:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.AnimeCard button{
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 12px;
+    background-color: orange;
+    font-size: 18px;
+    cursor: pointer;
+}
+.AnimeCard img{
+    height: 210px;
+}
+.Catalog{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 80px;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+
+.About{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Title_About{
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+.Other_Info{
+    display: flex;
+
+    padding-top: 10px;
+    column-gap: 200px;
+}
+.Other_Info img{
+    width: 500px;
+    height: 300px;
+}
+.Other_Info h4{
+    display: flex;
+    font-size: 17px;
+}
+.logotype{
+    display: flex;
+    column-gap: 10px;
+}
+.logotype img{
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+}
+
+.Contacts_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.Contacts_info h1{
+    font-size: 50px;
+}
+.Contacts_info p{
+    font-size: 20px;
+}
+.form{
+    padding-top: 50px;
+}
+form{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    row-gap: 10px;
+}
+form input{
+    background-color: rgb(20, 13, 10);
+    border-color: orange;
+    border-radius: 10px;
+}
+input::placeholder{
+    padding-left: 10px;
+    color: gray;
+}
+.Comments{
+    display: flex;
+    height: 100px;
+}
+form button{
+    height: 50px;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+}
